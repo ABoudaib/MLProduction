@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 
 // Connect to MongoDB
-const dbURI = "mongodb://localhost:27017";
+const dbURI = "mongodb+srv://abelB:bK.3s8agJux.DJm@cluster0.1zzb5.mongodb.net/";
 
 mongoose.connect(dbURI)
     .then(() => console.log('Connected to MongoDB'))
